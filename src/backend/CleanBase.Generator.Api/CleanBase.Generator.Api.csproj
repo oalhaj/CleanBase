@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../CleanBase.Generator.Application/CleanBase.Generator.Application.csproj" />
+    <ProjectReference Include="../CleanBase.Generator.Infrastructure/CleanBase.Generator.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
